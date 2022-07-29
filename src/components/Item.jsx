@@ -5,7 +5,8 @@ const Item = (props) => {
     return (
         <div className="item">
             <div className="item__content">
-                <strong>{props.post.id}. {props.post.title}</strong>
+                <button>Готово</button>
+                <strong>{props.number}. {props.post.title}</strong>
             </div>
             <div className="item__btns">
                 <MyButton>Удалить</MyButton>

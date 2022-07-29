@@ -4,6 +4,7 @@ import Item from "./components/Item";
 import ItemList from "./components/ItemList";
 import MyButton from "./components/UI/button/MyButton";
 import MyInput from "./components/UI/input/MyInput";
+import ItemForm from "./components/ItemForm";
 function App() {
 
     const [item, setItem] = useState([
@@ -12,32 +13,30 @@ function App() {
         {id: 3, title: "Сходить в магазин"},
     ])
 
-    const [title, setTitle] = useState('')
 
-    const addNewItem = (e) => {
-        e.preventDefault()
-        console.log(title)
+    // const addNewItem = () => {
+    //     console.log(title)
+    //     console.log('1212')
+    // }
+
+    // const onSubmit = (e) => {
+    //     e.preventDefault();
+    //     const newItem = {
+    //         id: Date.now(),
+    //         title,
+    //     }
+    //     setItem([...item, newItem]);
+    //     setTitle('');
+    // }
+
+    const createItem = (newItem) => {
+    setItem([...item, newItem])
     }
-
-    // setItem.
 
   return (
           <div className="App">
               <div className="todos">
-                  <form>
-                      <label>
-                          Новая задача
-                          <MyInput
-                              onChange={e => setTitle(e.target.value)}
-                              value={title}
-                              type="text"
-                              placeholder="Что запланировали?"
-                          />
-                      </label>
-                      <MyButton onClick={addNewItem}>
-                          Сохранить
-                      </MyButton>
-                  </form>
+                  <ItemForm create={createItem}/>
               </div>
               <ItemList item={item} title="todos"/>
           </div>
