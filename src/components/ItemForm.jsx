@@ -1,6 +1,6 @@
 import React from 'react';
 import MyInput from "./UI/input/MyInput";
-import MyButton from "./UI/button/MyButton";
+import MyButton from "./UI/buttons/MyButton";
 import {useState} from "react";
 import item from "./Item";
 

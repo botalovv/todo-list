@@ -7,34 +7,23 @@ import MyInput from "./components/UI/input/MyInput";
 import ItemForm from "./components/ItemForm";
 function App() {
 
-    const [item, setItem] = useState([
+    const [items, setItems] = useState([
         {id: 1, title: "Помыть посуду"},
         {id: 2, title: "Приготовить еду"},
         {id: 3, title: "Сходить в магазин"},
     ])
 
-
-    // const addNewItem = () => {
-    //     console.log(title)
-    //     console.log('1212')
-    // }
-
-    // const onSubmit = (e) => {
-    //     e.preventDefault();
-    //     const newItem = {
-    //         id: Date.now(),
-    //         title,
-    //     }
-    //     setItem([...item, newItem]);
-    //     setTitle('');
-    // }
-
     const createItem = (newItem) => {
-    setItem([...item, newItem])
+    setItems([...items, newItem])
     }
 
    let performedMark = () => {
 
+    }
+
+    const removeTask = (items) => {
+        setItems(items.filter(itm => itm.id !== items.id))
+        console.log("я родился")
     }
 
   return (
@@ -42,7 +31,7 @@ function App() {
               <div className="todos">
                   <ItemForm create={createItem}/>
               </div>
-              <ItemList item={item} title="todos"/>
+              <ItemList remove={removeTask} items={items} title="todos"/>
           </div>
   );
 }

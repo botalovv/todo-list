@@ -1,14 +1,14 @@
 import React from 'react';
 import Item from "./Item";
 
-const ItemList = ({item, title}) => {
+const ItemList = ({items, title, remove}) => {
     return (
         <div>
             <h1 style={{textAlign: 'center'}}>
                 {title}
             </h1>
-            {item.map((post, index) =>
-                <Item number={index + 1} post={post} key={post.id}/>
+            {items.map((post, index) =>
+                <Item remove={remove} number={index + 1} post={post} key={post.id}/>
             )}
         </div>
     );
