@@ -21,9 +21,8 @@ function App() {
 
     }
 
-    const removeTask = (items) => {
-        setItems(items.filter(itm => itm.id !== items.id))
-        console.log("я родился")
+    const removeTask = (item) => {
+        setItems(items.filter(itm => itm.id !== item.id))
     }
 
   return (
