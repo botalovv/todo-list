@@ -17,9 +17,6 @@ function App() {
     setItems([...items, newItem])
     }
 
-   let performedMark = () => {
-
-    }
 
     const removeTask = (item) => {
         setItems(items.filter(itm => itm.id !== item.id))

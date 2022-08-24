@@ -1,7 +1,7 @@
 import React from 'react';
 import Item from "./Item";
 
-const ItemList = ({items, title, remove}) => {
+const ItemList = ({items, title, remove, performed}) => {
     return (
         <div>
             <h1 style={{textAlign: 'center'}}>
