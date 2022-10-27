@@ -1,9 +1,6 @@
 import React, {useState} from "react";
 import "./styles/App.css";
-import Item from "./components/Item";
 import ItemList from "./components/ItemList";
-import MyButton from "./components/UI/buttons/MyButton";
-import MyInput from "./components/UI/input/MyInput";
 import ItemForm from "./components/ItemForm";
 function App() {
 
@@ -12,7 +9,7 @@ function App() {
         {id: 2, title: "Приготовить еду"},
         {id: 3, title: "Сходить в магазин"},
     ])
-
+        // Фильтрация массива с помощью map по условия (проверить)
     const createItem = (newItem) => {
     setItems([...items, newItem])
     }
