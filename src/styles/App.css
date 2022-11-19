@@ -10,7 +10,7 @@
 }
 
 .App {
-    width: 500px;
+    width: 800px;
 }
 
 
@@ -36,4 +36,12 @@ form {
     border: 2px solid #298a82;
     border-radius: 8px;
     background-color: #a9fcd4;
+}
+
+.item__content strong {
+   padding-left: 20px;
+}
+
+.item__description {
+
 }

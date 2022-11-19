@@ -5,9 +5,9 @@ import ItemForm from "./components/ItemForm";
 function App() {
 
     const [items, setItems] = useState([
-        {id: 1, title: "Помыть посуду"},
-        {id: 2, title: "Приготовить еду"},
-        {id: 3, title: "Сходить в магазин"},
+        {id: 1, title: "Помыть посуду", description: "Кастрюли, сковородки и стаканы", timeToComplete: "2022-10-10"},
+        {id: 2, title: "Приготовить еду", description: "Паста, суп и чизкейк", timeToComplete: "2022-11-19"},
+        {id: 3, title: "Сходить в магазин", description: "Купить хлеб, масло, молоко", timeToComplete: "2022-12-10"},
     ])
         // Фильтрация массива с помощью map по условия (проверить)
     const createItem = (newItem) => {
@@ -24,7 +24,10 @@ function App() {
               <div className="todos">
                   <ItemForm create={createItem}/>
               </div>
-              <ItemList remove={removeTask} items={items} title="todos"/>
+              {items.length !== 0
+              ? <ItemList remove={removeTask} items={items} title="todos"/>
+              : <h3 style={{textAlign: "center"}}>Задач нет</h3>
+              }
           </div>
   );
 }
