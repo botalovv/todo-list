@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:todo-list" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2701904f-631b-409c-9401-63e1133b5bed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/todo-list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CTiNvbvX7XY9UjrEZzIGlg7i0c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2701904f-631b-409c-9401-63e1133b5bed" name="Changes" comment="" />
+      <created>1658832943746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658832943746</updated>
+      <workItem from="1658832945415" duration="4757000" />
+      <workItem from="1658914138009" duration="11619000" />
+      <workItem from="1658928470193" duration="2327000" />
+      <workItem from="1658997172482" duration="16799000" />
+      <workItem from="1659440157698" duration="1862000" />
+      <workItem from="1659609324329" duration="21935000" />
+      <workItem from="1660901503828" duration="20000" />
+      <workItem from="1660902457642" duration="15000" />
+      <workItem from="1660902575419" duration="3183000" />
+      <workItem from="1661339716449" duration="8344000" />
+      <workItem from="1661516090238" duration="906000" />
+      <workItem from="1661869940619" duration="1413000" />
+      <workItem from="1662122841133" duration="321000" />
+      <workItem from="1668680009487" duration="748000" />
+      <workItem from="1668689632154" duration="6685000" />
+      <workItem from="1668750107642" duration="9121000" />
+      <workItem from="1668796579676" duration="14000" />
+      <workItem from="1668843997461" duration="293000" />
+      <workItem from="1668844479376" duration="69000" />
+      <workItem from="1668844562834" duration="66000" />
+      <workItem from="1668844806883" duration="7581000" />
+      <workItem from="1668857537296" duration="9119000" />
+      <workItem from="1669019672224" duration="14713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1669039795018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1669039795018" />
+  </component>
+</project>

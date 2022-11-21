@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 #root {
@@ -10,7 +11,7 @@
 }
 
 .App {
-    width: 800px;
+    width: 1000px;
 }
 
 
@@ -19,11 +20,11 @@
     padding: 8px;
     border: 2px solid #298a82;
     border-radius: 5px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #a9fcd4;
     margin: 4px;
-    text-align: center;
+
 }
 
 label {
@@ -38,10 +39,45 @@ form {
     background-color: #a9fcd4;
 }
 
-.item__content strong {
-   padding-left: 20px;
+.item__number {
+    margin-left: 10px;
 }
 
-.item__description {
 
+.item__title{
+    padding-left: 10px;
+    width: 200px;
 }
+
+.item__description_container {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.item__date_container {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.item__files {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.hidden__input {
+    display: none;
+}
+
+.label__input_hidden {
+    border: 1px solid skyblue;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 8px ;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 200;
+    background-color: #cdf7e6;
+    float: right;
+}
+
